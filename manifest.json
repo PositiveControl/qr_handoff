@@ -2,7 +2,7 @@
   "name": "QR Handoff",
   "version": "1.0",
   "description": "Instantly share any web URL to any device(s) capable of reading QR codes.",
-  "permissions": ["tabs", "activeTab", "http://*/", "https://*/"],
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["http://*/", "https://*/"],
@@ -14,17 +14,17 @@
     "default_popup": "popup.html",
     "default_title": "Scan to open on another device.",
     "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/qr-handoff-16.png",
+      "32": "images/qr-handoff-32.png",
+      "48": "images/qr-handoff-48.png",
+      "128": "images/qr-handoff-128.png"
     }
   },
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "16": "images/qr-handoff-16.png",
+    "32": "images/qr-handoff-32.png",
+    "48": "images/qr-handoff-48.png",
+    "128": "images/qr-handoff-128.png"
   },
   "manifest_version": 2
 }
