@@ -8,6 +8,7 @@ If you use all Apple devices and Safari, you can easily handoff websites from on
 QR Handoff does not store URLs or generated QR codes.
 
 ## How to use QR Handoff
+0. [Download](https://chrome.google.com/webstore/detail/qr-handoff/oedfaohaihbiapeaodhocajcdgbjfjia) from Chrome Web Store
 1. Click the extension to generate a QR code that contains the current tab's URL
 2. Scan the QR code with a capable device
 3. Open the URL on your device's browser
